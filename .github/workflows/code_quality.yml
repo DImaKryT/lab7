@@ -25,4 +25,4 @@ jobs:
         run: pip install radon
 
       - name: Запуск аналізу коду
-        run: python analyze_code.py
+        run: python metrics.py
